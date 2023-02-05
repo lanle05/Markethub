@@ -1,0 +1,200 @@
+.Detailflow {
+  display: flex;
+  justify-content: center;
+  background: #f5f5f5;
+  height: 40px;
+  padding-top: 10px;
+}
+.textflow {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #616161;
+}
+.Arrow {
+  height: 40px;
+  color: #616161;
+  padding-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.page {
+  background: #d5d5d5;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register {
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.Details {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #353535;
+  text-align: start;
+  padding-top: 30px;
+  margin-left: 60px;
+  margin-bottom: 10px;
+}
+.General {
+  padding: 20px;
+}
+.formDiv {
+  width: 80%;
+  height: 50px;
+  background: #ffffff;
+  border: 0.6px solid #d5d5d5;
+  border-radius: 10px;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px;
+  margin-left: 40px;
+}
+.formDiv input {
+  border: none;
+  outline: none;
+  width: 200pt;
+  text-align: start;
+  margin-left: 10pt;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #959595;
+}
+.formDiv select {
+  border: none;
+  outline: none;
+  width: 280pt;
+  text-align: start;
+  margin-left: 8pt;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #959595;
+}
+.topText {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #616161;
+  text-align: start;
+  margin-left: 10pt;
+}
+.specAddress {
+  display: flex;
+  margin-top: 20px;
+}
+.specAddress Input {
+  width: 120px;
+  border: none;
+}
+.specAddress Select {
+  width: 120px;
+  border: none;
+}
+.streetDiv {
+  width: 80%;
+  height: 120px;
+  background: #ffffff;
+  border: 0.6px solid #d5d5d5;
+  border-radius: 10px;
+  margin-top: 1rem;
+  /* display: flex; */
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px;
+  margin-left: 40px;
+}
+.no-outline:focus {
+  outline: none;
+}
+.no-outline {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #959595;
+}
+.street {
+  margin-bottom: 10px;
+  border: none;
+  width: 100%;
+  margin-top: 10px;
+  padding-left: 12px;
+}
+.Move {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-right: 30px;
+}
+.Kin {
+  background: #e60000;
+  border-radius: 25px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+  display: flex;
+  height: 40px;
+  width: 150px;
+  justify-content: center;
+  border: none;
+  margin-top: 10px;
+  align-items: center;
+}
+.Check {
+  color: #0fc221;
+  margin-right: 10pt;
+  height: 20px;
+}
+.Back {
+  background: #f5f5f5;
+  border-radius: 25px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 165%;
+  color: #353535;
+  display: flex-start;
+  height: 40px;
+  width: 150px;
+  justify-content: center;
+  border: none;
+  margin-top: 10px;
+  align-items: center;
+  margin-right: 140px;
+}
+.Barrow {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #353535;
+}
+.uncoloredlink {
+  color: #ffffff;
+  text-decoration: none;
+}

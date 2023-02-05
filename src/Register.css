@@ -1,0 +1,191 @@
+.page {
+  background: #d5d5d5;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register {
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.Details {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #353535;
+  text-align: start;
+  padding-top: 30px;
+  margin-left: 60px;
+  margin-bottom: 10px;
+}
+.Gender {
+  display: flex;
+  background: #ffffff;
+  border: 0.6px solid #d5d5d5;
+  border-radius: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #353535;
+  padding: 5px;
+  justify-content: start;
+  width: 80%;
+  align-items: center;
+  margin-left: 40px;
+  justify-content: space-between;
+  height: 40px;
+}
+.General {
+  padding: 20px;
+}
+.formDiv {
+  width: 80%;
+  height: 50px;
+  background: #ffffff;
+  border: 0.6px solid #d5d5d5;
+  border-radius: 10px;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px;
+  margin-left: 40px;
+}
+.formDiv input {
+  border: none;
+  outline: none;
+  width: 200pt;
+  text-align: start;
+  margin-left: 10pt;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #959595;
+}
+.topText {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #616161;
+  text-align: start;
+  margin-left: 10pt;
+}
+.Country {
+  margin-right: 10px;
+  text-align: start;
+  margin-left: 10pt;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #353535;
+}
+.Kin {
+  background: #e60000;
+  border-radius: 25px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+  display: flex;
+  height: 40px;
+  width: 150px;
+  justify-content: center;
+  border: none;
+  margin-top: 10px;
+  align-items: center;
+}
+.Move {
+  display: flex;
+  justify-content: flex-end;
+}
+.specAddress {
+  display: flex;
+  margin-top: 20px;
+}
+.specAddress Input {
+  width: 120px;
+  border: none;
+}
+.specAddress Select {
+  width: 120px;
+  border: none;
+}
+.streetDiv {
+  width: 80%;
+  height: 120px;
+  background: #ffffff;
+  border: 0.6px solid #d5d5d5;
+  border-radius: 10px;
+  margin-top: 1rem;
+  /* display: flex; */
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px;
+  margin-left: 40px;
+}
+.no-outline:focus {
+  outline: none;
+}
+.street {
+  margin-bottom: 10px;
+  border: none;
+  width: 100%;
+  margin-top: 10px;
+  padding-left: 12px;
+}
+.Detailflow {
+  display: flex;
+  justify-content: center;
+  background: #f5f5f5;
+  height: 40px;
+  padding-top: 10px;
+}
+.textflow {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #616161;
+}
+.Arrow {
+  height: 40px;
+  color: #616161;
+  padding-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.uncoloredlink {
+  color: #ffffff;
+  text-decoration: none;
+}
+input[type="radio"] {
+  accent-color: #e60000 !important;
+}
+.Pass{
+  border: none;
+  background-color:#ffffff;
+  color:#959595;
+}
+.Eye{
+  margin-left:30px;
+  width: 30px;
+  height:15px;
+}
